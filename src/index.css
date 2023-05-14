@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(11, 14, 15);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.postDiv:hover{
+  cursor: pointer;
+}
